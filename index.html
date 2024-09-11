@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Linkando o CSS -->
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo ao Meu Portfólio</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre Mim</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Olá, sou Marcos Henrique dos Santos</h2>
+      <p>
+        Desenvolvedor em início de carreira, buscando oportunidades para
+        aprender e crescer na área de tecnologia.
+      </p>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="about">
+      <h2>Sobre Mim</h2>
+      <p>
+        Sou um desenvolvedor iniciante apaixonado por tecnologia e inovação.
+        Atualmente, estou focado em aprender HTML, CSS e JavaScript para
+        construir projetos que possam resolver problemas do dia a dia. Gosto de
+        desafios que me ajudam a crescer e estou sempre buscando novas
+        oportunidades de aprendizado.
+      </p>
+      <p>
+        Meu objetivo é me desenvolver como profissional na área de
+        desenvolvimento web e contribuir com soluções criativas em equipes
+        dinâmicas.
+      </p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>Projeto 1: Calculadora</h3>
+          <p>
+            Uma calculadora funcional criada com HTML, CSS e JavaScript. Ela
+            realiza operações matemáticas básicas e tem um layout responsivo.
+          </p>
+          <a
+            href="https://github.com/marcosmacuco/calculadora.git"
+            target="_blank"
+            >Ver Código no GitHub</a
+          >
+        </div>
+        <div class="project-item">
+          <h3>Projeto 2: Relógio</h3>
+          <p>
+            Um relógio digital criado com HTML, CSS e JavaScript. Ele exibe a
+            hora atual em tempo real com um design simples e elegante.
+          </p>
+          <a href="https://github.com/marcosmacuco/relogio.git" target="_blank"
+            >Ver Código no GitHub</a
+          >
+        </div>
+        <div class="project-item">
+          <h3>Projeto 3: HDC</h3>
+          <p>
+            Projeto HDC desenvolvido com HTML, CSS e JavaScript, que demonstra
+            habilidades avançadas em design e interatividade.
+          </p>
+          <a href="https://github.com/marcosmacuco/HDC.git" target="_blank"
+            >Ver Código no GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="skills">
+      <h2>Habilidades</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Git e GitHub</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact">
+      <h2>Contato</h2>
+      <form
+        action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Seu Nome"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="_replyto"
+            required
+            placeholder="Seu E-mail"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Sua Mensagem"
+          ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 - Marcos Henrique dos Santos</p>
+    </footer>
+  </body>
+</html>
